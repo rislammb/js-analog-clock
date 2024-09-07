@@ -67,3 +67,20 @@ body {
   height: var(--h);
   border-radius: 8px;
 }
+
+.digital {
+  width: 100%;
+  position: absolute;
+  bottom: 48px;
+  text-align: center;
+}
+
+.digital p {
+  display: inline;
+  padding: 4px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}

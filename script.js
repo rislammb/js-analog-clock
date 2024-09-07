@@ -1,6 +1,7 @@
 const hour = document.getElementById("hour");
 const min = document.getElementById("min");
 const sec = document.getElementById("sec");
+const digital = document.getElementById("digital");
 
 function displayTime() {
   const date = new Date();
@@ -16,6 +17,8 @@ function displayTime() {
   hour.style.transform = `rotate(${hRotation}deg)`;
   min.style.transform = `rotate(${mRotation}deg)`;
   sec.style.transform = `rotate(${sRotation}deg)`;
+
+  digital.innerText = date.toLocaleTimeString();
 }
 
 setInterval(displayTime, 1000);
